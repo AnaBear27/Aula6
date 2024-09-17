@@ -1,6 +1,6 @@
 <?php
 	
-	//CABEÇALHO - OK.
+	//CABEÇALHO
 	$cliente=["Marcos","Vini","David","Ana Beatriz","Carlos","Theo","Alicia","Robert","Gabriel","João"];
 	sort($cliente);
 	
@@ -8,14 +8,13 @@
 	
 	echo "<hr/>";
 	
-	//EXIBIR TABELA - OK.
+	//EXIBIR TABELA
 	
 	foreach($cliente as $lista){
 		echo $lista."<br/>";
 	}
 	
-	
-	// LINHA DE BAIXO - OK.
+	// LINHA DE BAIXO
 	
 	echo "<hr/>";
 ?>
